@@ -1,9 +1,9 @@
 <h1>New Post</h1>
 <%= form_for(@post) do |f| %>
-  <h3><%= f.label :inquisitive_name %>:</h3>
-  <%= f.text_field :name %>
-  <h3><%= f.label :inquisitive_bio %>:</h3>
-  <%= f.text_area :bio %><br><br>
+  <h3><%= f.label :title %>:</h3>
+  <%= f.text_field :title %>
+  <h3><%= f.label :description %>:</h3>
+  <%= f.text_area :description %><br><br>
   <%= f.submit %>
 <% end %>
 
